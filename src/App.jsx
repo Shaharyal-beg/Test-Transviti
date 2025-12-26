@@ -85,7 +85,7 @@ function App() {
           </div>
 
           {/* Recommended Jobs */}
-          <div>
+          <div className="mb-8">
             <div className="flex gap-2 items-center mb-5 ">
               <h2 className="text-xl font-semibold text-[#333333]">Recommended Jobs</h2>
               <a href="#" className="text-[14px] font-medium text-[#0154AA] underline">See Recommended Jobs</a>

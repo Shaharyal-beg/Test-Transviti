@@ -1,0 +1,125 @@
+/* Neue Haas Grotesk Display */
+
+/* 100 – XXThin */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* 200 – XThin */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayXThin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* 300 – Thin */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayThinItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* 400 – Light */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* 500 – Roman (Normal text) */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* 600 – Medium */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* 700 – Bold */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* 900 – Black */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('./assets/fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+body {
+  font-family: 'Neue Haas Grotesk', system-ui, -apple-system, sans-serif;
+  font-weight: 400; /* Prevent default bold */
+}
