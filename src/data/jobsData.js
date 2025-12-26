@@ -138,3 +138,51 @@ export const recommendedJobs = [
     applicants: "22"
   }
 ]
+
+export const latestJobs = [
+  {
+    id: 16,
+    promoted: true,
+    title: "UI/UX Designer",
+    company: "Teams",
+    location: "Seattle, USA (Remote)",
+    postedTime: "1 day ago",
+    applicants: "22"
+  },
+  {
+    id: 17,
+    promoted: true,
+    title: "UI/UX Designer",
+    company: "Teams",
+    location: "Seattle, USA (Remote)",
+    postedTime: "1 day ago",
+    applicants: "22"
+  },
+  {
+    id: 18,
+    promoted: true,
+    title: "UI/UX Designer",
+    company: "Teams",
+    location: "Seattle, USA (Remote)",
+    postedTime: "1 day ago",
+    applicants: "22"
+  },
+  {
+    id: 19,
+    promoted: true,
+    title: "UI/UX Designer",
+    company: "Teams",
+    location: "Seattle, USA (Remote)",
+    postedTime: "1 day ago",
+    applicants: "22"
+  },
+  {
+    id: 20,
+    promoted: true,
+    title: "UI/UX Designer",
+    company: "Teams",
+    location: "Seattle, USA (Remote)",
+    postedTime: "1 day ago",
+    applicants: "22"
+  }
+]

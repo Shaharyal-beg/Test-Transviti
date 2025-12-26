@@ -62,9 +62,9 @@ function JobCard({ job }) {
             <circle cx="8" cy="8" r="6.5" stroke="#737A91" strokeWidth="1.5"/>
             <path d="M8 4.5V8L10.5 10.5" stroke="#737A91" strokeWidth="1.5" strokeLinecap="round"/>
           </svg>
-          <span className="text-sm">{job.postedTime}</span>
+          <span className="text-sm whitespace-nowrap">{job.postedTime}</span>
           <span className="text-sm">|</span>
-          <span className="text-[#0154AA] text-sm font-medium">{job.applicants} applicants</span>
+          <span className="text-[#0154AA] text-sm font-medium whitespace-nowrap">{job.applicants} applicants</span>
         </div>
       </div>
 

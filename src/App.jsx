@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/navbar'
 import FilterSection from './components/FilterSection'
 import JobCard from './components/JobCard'
-import { featuredJobs, recommendedJobs } from './data/jobsData'
+import { featuredJobs, latestJobs, recommendedJobs } from './data/jobsData'
 import pp from './assets/pp.png'
 import bg from './assets/bg.jpg'
 
@@ -92,6 +92,19 @@ function App() {
             </div>
             <div className="grid grid-cols-5 gap-4">
               {recommendedJobs.map((job) => (
+                <JobCard key={job.id} job={job} />
+              ))}
+            </div>
+          </div>
+
+          {/* Latest Jobs */}
+          <div>
+            <div className="flex gap-2 items-center mb-5 ">
+              <h2 className="text-xl font-semibold text-[#333333]">Latest Jobs</h2>
+              <a href="#" className="text-[14px] font-medium text-[#0154AA] underline">See Recommended Jobs</a>
+            </div>
+            <div className="grid grid-cols-5 gap-4">
+              {latestJobs.map((job) => (
                 <JobCard key={job.id} job={job} />
               ))}
             </div>
